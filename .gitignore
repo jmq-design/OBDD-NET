@@ -1,0 +1,26 @@
+# 
+__pycache__/
+*.pyc
+
+# log or output
+result*/
+log/
+model/
+temp/
+output*/
+# 
+BDD_s.dot
+bdd_temp.json
+learned_OBDD.dot
+
+# temporal files in the folder `datasets`
+/datasets/**/*_bin.csv
+/datasets/**/5-fold*/
+/datasets/**/train-test*/
+
+# 
+datasets/large_datasets
+datasets/small_datasets
+
+# 
+baselines/
